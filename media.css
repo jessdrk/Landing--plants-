@@ -1,0 +1,41 @@
+@media (max-width: 1279px) {
+    .home__btn__prev {
+        min-width: 60%;
+        height: 120px;
+    }
+    
+    .home__btn__next {
+        min-width: 60%;
+        height: 120px;
+    }
+    
+    .home__btn {
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 0;
+    }
+
+    .home__text__subtext {
+        margin-right: 0;
+        margin-bottom: 109px;
+        width: 417px;
+    } 
+}
+
+@media (max-width: 1099px) {
+    .home__text__subtext {
+        margin-bottom: 77px;
+        width: 340px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .icon_loupe {
+        margin-right: 3px;;
+    }
+
+    .button__signUp, .button__signIn {
+        width: 70px;
+    }
+}
