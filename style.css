@@ -1,49 +1,49 @@
 @font-face {
 	font-family: 'Nunito-Bold'; 
 	src: local('Nunito-Bold'),
-		url(/assets/fonts/Nunito-Bold.ttf); 
+		url(assets/fonts/Nunito-Bold.ttf); 
 }
 
 @font-face {
 	font-family: 'Montserrat-Bold'; 
 	src: local('Montserrat-Bold'),
-		url(/assets/fonts/Montserrat-Bold.ttf); 
+		url(assets/fonts/Montserrat-Bold.ttf); 
 }
 
 @font-face {
 	font-family: 'Montserrat-Medium'; 
 	src: local('Montserrat-Medium'),
-		url(/assets/fonts/Montserrat-Medium.ttf); 
+		url(assets/fonts/Montserrat-Medium.ttf); 
 }
 
 @font-face {
 	font-family: 'Montserrat-Regular'; 
 	src: local('Montserrat-Regular'),
-		url(/assets/fonts/Montserrat-Regular.ttf); 
+		url(assets/fonts/Montserrat-Regular.ttf); 
 }
 
 @font-face {
 	font-family: 'Montserrat-SemiBold'; 
 	src: local('Montserrat-SemiBold'),
-		url(/assets/fonts/Montserrat-SemiBold.ttf); 
+		url(assets/fonts/Montserrat-SemiBold.ttf); 
 }
 
 @font-face {
 	font-family: 'WorkSans-Regular'; 
 	src: local('WorkSans-Regular'),
-		url(/assets/fonts/WorkSans-Regular.ttf); 
+		url(assets/fonts/WorkSans-Regular.ttf); 
 }
 
 @font-face {
 	font-family: 'Poppins-Medium'; 
 	src: local('Poppins-Medium'),
-		url(/assets/fonts/Poppins-Medium.ttf); 
+		url(assets/fonts/Poppins-Medium.ttf); 
 }
 
 @font-face {
 	font-family: 'WorkSans-Medium'; 
 	src: local('WorkSans-Medium'),
-		url(/assets/fonts/WorkSans-Medium.ttf); 
+		url(assets/fonts/WorkSans-Medium.ttf); 
 }
 
 .fontNunitoBold {
@@ -292,7 +292,6 @@ body {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    margin-top: 80px;
     padding-bottom: 40px;
     border-bottom: 1px solid #E0E0E0;
     margin: 80px 20px 0 20px;
@@ -308,6 +307,7 @@ body {
     height: 31px;
     text-align: center;
     border: 1px solid #E0E0E0;
+    cursor: pointer;
 }
 
 .feature__images {
@@ -403,6 +403,7 @@ body {
     font-style: 14px;
     text-align: center;
     border: none;
+    cursor: pointer;
 }
 
 .visitShop__right img {
@@ -411,12 +412,12 @@ body {
 
 .footer {
     width: 100%;
-    width: 1280px;
     height: 268px;
     margin-top: 80px;
     border-top: 1px solid #E0E0E0;
     display: flex;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .contacts {
@@ -505,4 +506,5 @@ body {
     font-size: 8px;
     margin-top: 14px;
     border: none;
+    cursor: pointer;
 }
